@@ -3,17 +3,28 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 
-	public float speed;
 	private Rigidbody2D rb2d;
-
+	public float maxSpeed = 7f;
+	public float moveForce = 200f;
+	public float jumpForce = 200f;
+	
 	void Start(){
 		rb2d = GetComponent<Rigidbody2D> ();
 	}
 
+
 	void FixedUpdate(){
 		float moveHorizontal = Input.GetAxis ("Horizontal");
-		float moveVertical = Input.GetAxis ("Vertical");
-		Vector2 movement = new Vector2 (moveHorizontal,moveVertical);
-		rb2d.AddForce (movement * speed);
+		if(moveHorizontal* rb2d.velocity.x < maxSpeed){
+			rb2d.AddForce (Vector2.right * moveHorizontal * moveForce);
+		}
+		if (Mathf.Abs (rb2d.velocity.x) > maxSpeed) {
+			rb2d.velocity = new Vector2 (Mathf.Sign (rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);
+		}
+
+
+		if (Input.GetButtonDown ("Jump")) {
+			rb2d.AddForce (new Vector2 (0f, jumpForce));
+		}
 	}
 }

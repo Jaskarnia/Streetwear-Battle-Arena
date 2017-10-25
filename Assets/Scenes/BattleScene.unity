@@ -301,6 +301,7 @@ GameObject:
   - 50: {fileID: 910923906}
   - 114: {fileID: 910923905}
   - 60: {fileID: 910923909}
+  - 114: {fileID: 910923910}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Untagged
@@ -319,7 +320,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e00fcffbbcd3b45a58c5bcf5b9a105b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 11.3
+  maxSpeed: 7
+  moveForce: 365
+  jumpForce: 200
 --- !u!50 &910923906
 Rigidbody2D:
   serializedVersion: 2
@@ -416,6 +419,17 @@ PolygonCollider2D:
       - {x: -1.26, y: 1.655}
       - {x: -1.31, y: 1.505}
       - {x: -1.3299999, y: 1.355}
+--- !u!114 &910923910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 910923904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23480edfaa7dd4178abfbd4a973c8468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &918832224
 GameObject:
   m_ObjectHideFlags: 0

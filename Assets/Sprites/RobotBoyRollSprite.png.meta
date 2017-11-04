@@ -1,0 +1,460 @@
+fileFormatVersion: 2
+guid: 017ae7628d401b74ea214f8692f66237
+timeCreated: 1509757383
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RobotBoyRollSprite_0
+    21300002: RobotBoyRollSprite_1
+    21300004: RobotBoyRollSprite_2
+    21300006: RobotBoyRollSprite_3
+    21300008: RobotBoyRollSprite_4
+    21300010: RobotBoyRollSprite_5
+    21300012: RobotBoyRollSprite_6
+    21300014: RobotBoyRollSprite_7
+    21300016: RobotBoyRollSprite_8
+    21300018: RobotBoyRollSprite_9
+    21300020: RobotBoyRollSprite_10
+    21300022: RobotBoyRollSprite_11
+    21300024: RobotBoyRollSprite_12
+    21300026: RobotBoyRollSprite_13
+    21300028: RobotBoyRollSprite_14
+    21300030: RobotBoyRollSprite_15
+    21300032: RobotBoyRollSprite_16
+    21300034: RobotBoyRollSprite_17
+    21300036: RobotBoyRollSprite_18
+    21300038: RobotBoyRollSprite_19
+    21300040: RobotBoyRollSprite_20
+    21300042: RobotBoyRollSprite_21
+    21300044: RobotBoyRollSprite_22
+    21300046: RobotBoyRollSprite_23
+    21300048: RobotBoyRollSprite_24
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1781
+        width: 161
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_1
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1782
+        width: 179
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_2
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1784
+        width: 184
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_3
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1784
+        width: 144
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_4
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1791
+        width: 118
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_5
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 1784
+        width: 109
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_6
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 1787
+        width: 122
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_7
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1514
+        width: 123
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_8
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1514
+        width: 110
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_9
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1508
+        width: 118
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_10
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1516
+        width: 120
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_11
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1515
+        width: 116
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_12
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1515
+        width: 117
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_13
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 1516
+        width: 118
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_14
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1235
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_15
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1238
+        width: 121
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_16
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1349
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_17
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1236
+        width: 165
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_18
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1227
+        width: 214
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_19
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 1236
+        width: 186
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_20
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1239
+        width: 116
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_21
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1224
+        width: 202
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_22
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 964
+        width: 134
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_23
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 960
+        width: 149
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RobotBoyRollSprite_24
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 959
+        width: 160
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

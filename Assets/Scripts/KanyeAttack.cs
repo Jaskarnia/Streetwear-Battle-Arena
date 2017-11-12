@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class robotattack : MonoBehaviour {
+public class KanyeAttack : MonoBehaviour {
 
     private bool attacking = false;
     private float attackTimer = 0;
@@ -40,7 +40,7 @@ public class robotattack : MonoBehaviour {
             }
         }
 
-        anim.SetBool("attack", attacking);
+        anim.SetBool("AttackActive", attacking);
 
     }
     

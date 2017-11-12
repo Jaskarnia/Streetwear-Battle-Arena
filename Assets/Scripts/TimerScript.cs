@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class TimerScript : MonoBehaviour {
     public Text timerText;
-    private float startingTime = 3;
+    private float startingTime = 30;
     public string gameOver = "GAME OVER";
 	// Use this for initialization
 	void Start () {

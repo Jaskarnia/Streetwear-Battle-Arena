@@ -16,7 +16,8 @@ public class PlayerController : MonoBehaviour {
 	void FixedUpdate(){
 		float moveHorizontal = Input.GetAxis ("Horizontal");
 		if(moveHorizontal* rb2d.velocity.x < maxSpeed){
-			rb2d.AddForce (Vector2.right * moveHorizontal * moveForce);
+			//rb2d.AddForce (Vector2.right * moveHorizontal * moveForce);
+			rb2d.velocity = new Vector2 (moveForce * moveHorizontal, rb2d.velocity.y);
 		}
 		if (Mathf.Abs (rb2d.velocity.x) > maxSpeed) {
 			rb2d.velocity = new Vector2 (Mathf.Sign (rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);

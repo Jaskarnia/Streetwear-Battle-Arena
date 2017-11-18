@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerController : MonoBehaviour {
+public class Player1Controller : MonoBehaviour {
 
 	private Rigidbody2D rb2d;
 	public float maxSpeed = 7f;
@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour {
 			rb2d.velocity = new Vector2 (Mathf.Sign (rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);
 		}
 
-        if (Input.GetButtonDown("Jump") && canjump == true)
+        if (Input.GetKeyDown("w") && canjump == true)
         {
             rb2d.AddForce(new Vector2(0f, jumpForce));
             canjump = false;

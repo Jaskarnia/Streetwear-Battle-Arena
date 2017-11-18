@@ -267,7 +267,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 15009457}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c42e2ef0a33a7d14f94e4756b04cd8a5, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -608,7 +608,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 737138670}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c42e2ef0a33a7d14f94e4756b04cd8a5, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -792,7 +792,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 879160450}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 355, z: 0}
+  m_LocalPosition: {x: 0, y: 235.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 955296037}
@@ -937,7 +937,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 918832224}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c42e2ef0a33a7d14f94e4756b04cd8a5, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1037,7 +1037,7 @@ RectTransform:
   m_GameObject: {fileID: 955296033}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.81, y: -3.31, z: 90}
-  m_LocalScale: {x: 0.0145026175, y: 0.0145026175, z: 0.0145026175}
+  m_LocalScale: {x: 0.021104762, y: 0.021104762, z: 0.021104762}
   m_Children:
   - {fileID: 879160451}
   - {fileID: 1478282583}
@@ -1249,7 +1249,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1135993963}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 285, y: 362, z: 0}
+  m_LocalPosition: {x: 285, y: 242.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 806600345}
@@ -1465,7 +1465,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1478282582}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -285, y: 362, z: 0}
+  m_LocalPosition: {x: -285, y: 242.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1976982027}
@@ -1563,7 +1563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 7
-  moveForce: 10
+  moveForce: 200
   jumpForce: 200
 --- !u!4 &1489068712
 Transform:
@@ -1723,9 +1723,9 @@ GameObject:
   - component: {fileID: 1827840850}
   - component: {fileID: 1827840849}
   - component: {fileID: 1827840851}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ground
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1795,7 +1795,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1827840848}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c42e2ef0a33a7d14f94e4756b04cd8a5, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0

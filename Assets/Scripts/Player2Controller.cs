@@ -19,7 +19,7 @@ public class Player2Controller : MonoBehaviour
 
     void FixedUpdate()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
+        float moveHorizontal = Input.GetAxis("Player2Horizontal");
 
         if (moveHorizontal * rb2d.velocity.x < maxSpeed)
         {

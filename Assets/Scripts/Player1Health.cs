@@ -7,10 +7,10 @@ public class Player1Health : MonoBehaviour
 {
     public Image currentHealthbar;
     public Text ratioText;
-    private float hitpoint = 100;
+    public float hitpoint = 100;
     private float maxHitpoint = 100;
 
-    private void Start()
+    void Update()
     {
         UpdateHealthbar();
     }
@@ -22,11 +22,11 @@ public class Player1Health : MonoBehaviour
         ratioText.text = (ratio * 100).ToString() + '%';
         if (hitpoint <= 0)
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
     }
 
-    private void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         hitpoint -= damage;
     }

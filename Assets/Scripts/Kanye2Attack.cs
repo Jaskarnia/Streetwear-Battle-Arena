@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Kanye2Attack : MonoBehaviour
-{
+public class Kanye2Attack : MonoBehaviour {
 
     private bool attacking = false;
     private float attackTimer = 0;

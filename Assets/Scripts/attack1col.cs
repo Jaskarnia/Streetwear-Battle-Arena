@@ -4,13 +4,30 @@ using UnityEngine;
 
 public class attack1col : MonoBehaviour {
 
+	private Player2Health player2Health;
+
     public int dmg = 20;
 
-    void OnTriggerEnter2D(Collider2D col)
+	void Start ()
+	{
+		GameObject player2Object = GameObject.FindGameObjectWithTag ("Player2");
+		if (player2Object != null)
+		{
+			player2Health = player2Object.GetComponent <Player2Health>();
+		}
+		if (player2Health == null)
+		{
+			Debug.Log ("Cannot find 'Player2Health' script");
+		}
+		Debug.Log ("game started");
+	}
+
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if(col.isTrigger != true && col.CompareTag("Player2"))
+		
+        if (other.CompareTag("Player2"))
         {
-            col.SendMessageUpwards("TakeDamage", dmg);
+			player2Health.TakeDamage (dmg);
         }
     }
 

@@ -17,10 +17,10 @@ public class Kanye1Attack : MonoBehaviour {
         anim = gameObject.GetComponent<Animator>();
         attackcol.enabled = false;
     }
-
+		
     void Update()
     {
-        if(Input.GetKeyDown("f") && !attacking)
+        if( Input.GetKeyDown("f") && !attacking)
         {
             attacking = true;
             attackTimer = attackCooldown;

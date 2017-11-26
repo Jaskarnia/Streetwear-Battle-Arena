@@ -15,7 +15,11 @@ public class TimerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (startingTime > 0)
+        if (Player1Health.hitpoint == 0 || Player2Health.hitpoint == 0)
+            {
+                timerText.text = gameOver; //test
+            }
+        else if (startingTime > 0)
             {
             startingTime -= Time.deltaTime;
             timerText.text = startingTime.ToString("f2");

@@ -1095,7 +1095,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 879160450}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 386, z: 0}
+  m_LocalPosition: {x: 0, y: 175, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 955296037}
@@ -1301,7 +1301,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealthbar: {fileID: 481019881}
   ratioText: {fileID: 677426810}
-  hitpoint: 100
 --- !u!1 &918832224
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,7 +1425,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 954456808}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 285, y: 393, z: 0}
+  m_LocalPosition: {x: 285, y: 182, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 481019879}
@@ -1447,12 +1446,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 954456808}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4da9b34b0d285b04eb8e9176fbb3a780, type: 3}
+  m_Script: {fileID: 11500000, guid: c02bfd5a25665c744900fc8a06405da1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealthbar: {fileID: 481019881}
-  ratioText: {fileID: 677426810}
-  hitpoint: 100
+  currentHealthbar: {fileID: 0}
+  ratioText: {fileID: 0}
 --- !u!114 &954456811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1569,7 +1567,7 @@ RectTransform:
   m_GameObject: {fileID: 955296033}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.81, y: -3.31, z: 90}
-  m_LocalScale: {x: 0.013414044, y: 0.013414044, z: 0.013414044}
+  m_LocalScale: {x: 0.027425742, y: 0.027425742, z: 0.027425742}
   m_Children:
   - {fileID: 879160451}
   - {fileID: 1478282583}
@@ -2001,7 +1999,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1478282582}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -285, y: 393, z: 0}
+  m_LocalPosition: {x: -285, y: 182, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1976982027}
@@ -2060,7 +2058,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealthbar: {fileID: 1976982028}
   ratioText: {fileID: 2125591711}
-  hitpoint: 100
 --- !u!1 &1489068709
 GameObject:
   m_ObjectHideFlags: 0
@@ -2204,7 +2201,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealthbar: {fileID: 1976982028}
   ratioText: {fileID: 2125591711}
-  hitpoint: 100
 --- !u!1 &1499374634
 GameObject:
   m_ObjectHideFlags: 0

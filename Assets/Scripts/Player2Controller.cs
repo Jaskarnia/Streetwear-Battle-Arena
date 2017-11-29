@@ -56,7 +56,7 @@ public class Player2Controller : MonoBehaviour
             rb2d.AddForce(new Vector2(0f, jumpForce));
             canjump = false;
         }
-		if ((transform.position.x > player1Location.position.x && facingLeft) || transform.position.x<player1Location.position.x && !facingLeft) {
+		if ((transform.position.x < player1Location.position.x && facingLeft) || transform.position.x>player1Location.position.x && !facingLeft) {
 			transform.localScale = new Vector3(-transform.localScale.x,1,1);
 			facingLeft = !facingLeft;
 		}

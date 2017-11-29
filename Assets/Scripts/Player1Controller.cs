@@ -10,6 +10,8 @@ public class Player1Controller : MonoBehaviour {
     private bool canjump = false;
 	private bool walking = false;
 	private Animator anim;
+	public Transform player2Location;
+	private bool facingLeft = true;
 
 	void Awake(){
 		anim = gameObject.GetComponent<Animator>();
@@ -52,6 +54,11 @@ public class Player1Controller : MonoBehaviour {
             rb2d.AddForce(new Vector2(0f, jumpForce));
             canjump = false;
         }
+
+		if ((transform.position.x > player2Location.position.x && facingLeft) || transform.position.x<player2Location.position.x && !facingLeft) {
+			transform.localScale = new Vector3(-transform.localScale.x,1,1);
+			facingLeft = !facingLeft;
+		}
     }
 
     void OnCollisionEnter2D(Collision2D collision)

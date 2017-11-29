@@ -9,17 +9,36 @@ public class Player2Controller : MonoBehaviour
     public float moveForce = 200f;
     public float jumpForce = 300f;
     private bool canjump = false;
-
+	private bool walking = false;
+	private Animator anim;
 
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
     }
 
+	void Awake(){
+		anim = gameObject.GetComponent<Animator>();
+	}
+
+	void Update(){
+
+		anim.SetBool("WalkActive", walking);
+		if (walking) {
+			walking = false;
+		}
+
+	}
 
     void FixedUpdate()
     {
         float moveHorizontal = Input.GetAxis("Player2Horizontal");
+
+		if (moveHorizontal != 0) {
+			walking = true;
+		} else {
+			walking = false;
+		}
 
         if (moveHorizontal * rb2d.velocity.x < maxSpeed)
         {

@@ -6,7 +6,7 @@ public class Kanye2Attack : MonoBehaviour {
 
     private bool attacking = false;
     private float attackTimer = 0;
-    private float attackCooldown = 0.3f;
+    private float attackCooldown = 0.2f;
 
     public Collider2D attackcol;
 

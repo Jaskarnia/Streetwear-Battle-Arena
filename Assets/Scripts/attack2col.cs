@@ -35,5 +35,11 @@ public class attack2col : MonoBehaviour{
             player1Health.TakeDamage(0);
         }
     }
-
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player1"))
+        {
+            player1Health.TakeDamage(0);
+        }
+    }
 }

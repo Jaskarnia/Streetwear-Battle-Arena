@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class TimerScript : MonoBehaviour {
     public Text timerText;
     private float startingTime = 30;
+    private float countdownTime = 5;
     public string gameOver = "GAME OVER";
 	// Use this for initialization
 	void Start () {
@@ -18,6 +19,11 @@ public class TimerScript : MonoBehaviour {
         if (Player1Health.hitpoint == 0 || Player2Health.hitpoint == 0)
             {
                 timerText.text = gameOver; //test
+            }
+        else if (countdownTime > 1)
+            {
+            countdownTime -= Time.deltaTime;
+            timerText.text = countdownTime.ToString("f0");
             }
         else if (startingTime > 0)
             {

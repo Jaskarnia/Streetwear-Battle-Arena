@@ -49,7 +49,7 @@ public class Player1Controller : MonoBehaviour {
 			
 		}
 
-        if (Input.GetKeyDown("w") && canjump == true)
+        if (Input.GetKey("w") && canjump == true)
         {
             rb2d.AddForce(new Vector2(0f, jumpForce));
 			anim.SetTrigger ("JumpTriggered");

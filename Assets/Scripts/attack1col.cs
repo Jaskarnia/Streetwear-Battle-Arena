@@ -6,7 +6,7 @@ public class attack1col : MonoBehaviour {
 
 	private Player2Health player2Health;
 
-    public int dmg = 20;
+    public int dmg = 5;
 
 	void Start ()
 	{
@@ -27,24 +27,12 @@ public class attack1col : MonoBehaviour {
 		
         if (other.CompareTag("Player2"))
         {
-			player2Health.TakeDamage(dmg);
-            
+			player2Health.TakeDamage (dmg);
+			
+			Collider2D collider = gameObject.GetComponentInParent(typeof(Collider2D)) as Collider2D;
+			if (collider != null)
+				collider.enabled = false;
         }
     }
-    void OnTriggerStay2D(Collider2D other)
-    {
 
-        if (other.CompareTag("Player2"))
-        {
-            player2Health.TakeDamage(0);
-        }
-    }
-    void OnTriggerExit2D(Collider2D other)
-    {
-
-        if (other.CompareTag("Player2"))
-        {
-            player2Health.TakeDamage(0);
-        }
-    }
 }

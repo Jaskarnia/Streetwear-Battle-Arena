@@ -1,13 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Player2Controller : MonoBehaviour
-{
+public class Player2Controller : MonoBehaviour{
 
     private Rigidbody2D rb2d;
-    public float maxSpeed = 7f;
-    public float moveForce = 200f;
-    public float jumpForce = 300f;
+	public float maxSpeed = 45f;
+	public float moveForce = 15f;
+	public float jumpForce = 350f;
     private bool canjump = false;
 	private bool walking = false;
 	private Animator anim;
@@ -26,9 +25,9 @@ public class Player2Controller : MonoBehaviour
 	void Update(){
 
 		anim.SetBool("WalkActive", walking);
-		if (walking) {
-			walking = false;
-		}
+//		if (walking) {
+//			walking = false;
+//		}
 
 	}
 
@@ -53,8 +52,10 @@ public class Player2Controller : MonoBehaviour
 
         if (Input.GetKey(KeyCode.UpArrow) && canjump == true)
         {
-            rb2d.AddForce(new Vector2(0f, jumpForce));
-            canjump = false;
+			rb2d.AddForce(new Vector2(0f, jumpForce));
+			anim.SetTrigger ("JumpTriggered");
+			canjump = false;
+
         }
 		if ((transform.position.x < player1Location.position.x && facingLeft) || transform.position.x>player1Location.position.x && !facingLeft) {
 			transform.localScale = new Vector3(-transform.localScale.x,1,1);

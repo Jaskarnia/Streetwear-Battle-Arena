@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TimerScript : MonoBehaviour {
     public Text timerText;
@@ -19,6 +20,8 @@ public class TimerScript : MonoBehaviour {
         if (Player1Health.hitpoint == 0 || Player2Health.hitpoint == 0)
             {
                 timerText.text = gameOver; //test
+				Restart();
+			
             }
         else if (countdownTime > 1)
             {
@@ -36,4 +39,14 @@ public class TimerScript : MonoBehaviour {
             }
 
 	 }
+
+	void Restart(){
+		if (Input.GetKeyDown(KeyCode.R))
+		{
+			startingTime = 30;
+			Player1Health.hitpoint = 100;
+			Player2Health.hitpoint = 100;
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		}
+	}
 }

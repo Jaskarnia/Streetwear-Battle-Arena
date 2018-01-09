@@ -73,8 +73,11 @@ public class Kanye1Attack : MonoBehaviour {
         }
 
 		if(Input.GetKeyDown("t")){
+//			Quaternion shotQuat = transform.rotation;
+//			shotQuat.eulerAngles = new Vector3(0,180,0);
 			Rigidbody2D shotInstance = Instantiate(shot, transform.position, transform.rotation) as Rigidbody2D;
-			shotInstance.velocity = new Vector2 (20, 0);
+			shotInstance.transform.localScale = new Vector3 (direction, 1,1);
+			shotInstance.velocity = new Vector2 (direction*20, 0);
 		}
 
         anim.SetBool("AttackActive", attacking);

@@ -530,9 +530,9 @@ GameObject:
   m_Component:
   - component: {fileID: 435992367}
   - component: {fileID: 435992368}
+  - component: {fileID: 435992371}
   - component: {fileID: 435992369}
   - component: {fileID: 435992370}
-  - component: {fileID: 435992371}
   m_Layer: 0
   m_Name: kanyehand (1)
   m_TagString: Untagged
@@ -623,7 +623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a73946a4084846b695e2bec72931fdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dmg: 5
+  dmg: 1
 --- !u!50 &435992371
 Rigidbody2D:
   serializedVersion: 4
@@ -2463,6 +2463,7 @@ MonoBehaviour:
   moveForce: 15
   jumpForce: 350
   player2Location: {fileID: 2059899652}
+  facingLeft: 1
 --- !u!4 &1489068712
 Transform:
   m_ObjectHideFlags: 0
@@ -2552,7 +2553,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2888714f9c64e4efbaa46a562fb0aaca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackMoveForce: 700
   attackcol: {fileID: 435992369}
+  attackcol2: {fileID: 1841643843}
 --- !u!1 &1570726200
 GameObject:
   m_ObjectHideFlags: 0
@@ -2906,6 +2909,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1841643840}
   - component: {fileID: 1841643841}
+  - component: {fileID: 1841643844}
+  - component: {fileID: 1841643843}
+  - component: {fileID: 1841643842}
   m_Layer: 0
   m_Name: kanyehand
   m_TagString: Untagged
@@ -2970,6 +2976,53 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1841643842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1841643839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a73946a4084846b695e2bec72931fdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmg: 1
+--- !u!58 &1841643843
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1841643839}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.8105099, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.8494904
+--- !u!50 &1841643844
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1841643839}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1880437830
 GameObject:
   m_ObjectHideFlags: 0

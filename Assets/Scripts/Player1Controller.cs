@@ -11,7 +11,7 @@ public class Player1Controller : MonoBehaviour {
 	private bool walking = false;
 	private Animator anim;
 	public Transform player2Location;
-	private bool facingLeft = true;
+	public bool facingLeft = true;
 
 	void Awake(){
 		anim = gameObject.GetComponent<Animator>();

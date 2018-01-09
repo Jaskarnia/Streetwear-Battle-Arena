@@ -2556,6 +2556,7 @@ MonoBehaviour:
   attackMoveForce: 700
   attackcol: {fileID: 435992369}
   attackcol2: {fileID: 1841643843}
+  shot: {fileID: 50849864561043614, guid: 09ebec7f7aa7347869d46e3dff37c1df, type: 2}
 --- !u!1 &1570726200
 GameObject:
   m_ObjectHideFlags: 0

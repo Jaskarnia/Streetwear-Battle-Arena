@@ -17,6 +17,8 @@ public class Kanye1Attack : MonoBehaviour {
 	private Rigidbody2D rb;
 	private Player1Controller p1con;
 
+	public Rigidbody2D shot;
+
     void Awake()
     {
 		GameObject player1Object = GameObject.FindGameObjectWithTag ("Player1");
@@ -69,6 +71,11 @@ public class Kanye1Attack : MonoBehaviour {
 				attackcol2.enabled = false;
             }
         }
+
+		if(Input.GetKeyDown("t")){
+			Rigidbody2D shotInstance = Instantiate(shot, transform.position, transform.rotation) as Rigidbody2D;
+			shotInstance.velocity = new Vector2 (20, 0);
+		}
 
         anim.SetBool("AttackActive", attacking);
 		anim.SetBool ("AttackCombo1", attackcombo1);

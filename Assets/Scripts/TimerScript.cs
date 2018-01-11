@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class TimerScript : MonoBehaviour {
     public Text timerText;
-    private float startingTime = 30;
+    private float startingTime = 99;
     private float countdownTime = 3;
     public string gameOver = "GAME OVER";
 	private string p1win = "Player 1 Wins!";
@@ -35,7 +35,7 @@ public class TimerScript : MonoBehaviour {
 			Restart();
         }
         else if (countdownTime > 1){
-			Time.timeScale = .50f;
+			Time.timeScale = 1.0f;
             countdownTime -= Time.deltaTime;
             timerText.text = countdownTime.ToString("f0");
         }

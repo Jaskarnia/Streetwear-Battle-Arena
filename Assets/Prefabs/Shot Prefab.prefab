@@ -37,7 +37,7 @@ GameObject:
   - component: {fileID: 4993417158268578}
   - component: {fileID: 50849864561043614}
   - component: {fileID: 61103518034251438}
-  - component: {fileID: 114100795294321096}
+  - component: {fileID: 114716606396253402}
   m_Layer: 0
   m_Name: Shot Prefab
   m_TagString: Untagged
@@ -117,7 +117,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &114100795294321096
+--- !u!114 &114716606396253402
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1804132887962832}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09df5dab8c87e4ef29fe6404e7358df8, type: 3}
+  m_Script: {fileID: 11500000, guid: 56fe568047c3844b6ab814eaeaab571b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dmg: 5

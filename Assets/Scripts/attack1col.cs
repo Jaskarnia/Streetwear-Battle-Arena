@@ -6,7 +6,7 @@ public class attack1col : MonoBehaviour {
 
 	private Player2Health player2Health;
 
-    public int dmg = 5;
+    public int dmg=1;
 
 	void Start ()
 	{
@@ -19,12 +19,11 @@ public class attack1col : MonoBehaviour {
 		{
 			Debug.Log ("Cannot find 'Player2Health' script");
 		}
-		Debug.Log ("game started");
+//		Debug.Log ("game started");
 	}
 
     void OnTriggerEnter2D(Collider2D other)
     {
-		
         if (other.CompareTag("Player2"))
         {
 			player2Health.TakeDamage (dmg);

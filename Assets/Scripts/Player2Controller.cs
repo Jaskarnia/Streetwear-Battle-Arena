@@ -11,7 +11,7 @@ public class Player2Controller : MonoBehaviour{
 	private bool walking = false;
 	private Animator anim;
 	public Transform player1Location;
-	private bool facingLeft = true;
+	public bool facingLeft = true;
 
     void Start()
     {
